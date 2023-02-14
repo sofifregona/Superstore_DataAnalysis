@@ -67,8 +67,7 @@ $H_{0}: \mu_{0} - \mu_{1} = 0$ <br>
 $H_{1}: \mu_{0} - \mu_{1} ≠ 0$ <br>
 
 * Estadístico muestral para realizar la estimación: <br>
-$T = \frac{x̄_{1} - x̄_{2}}{\sqrt{\frac{s^{2}_{1}}{n_{1}} + \frac{s^{2}_{2}}{n_{1}}}}$ 
-<br>
+$T=\frac{x̄_{1}-x̄_{2}}{\sqrt{\frac{s^{2}_{1}}{n_{1}}+\frac{s^{2}_{2}}{n_{1}}}}$ <br>
 donde: <br>
 $x̄_{1}$ : media muestral del salario anual de las personas que no aceptaron la membresía. <br>
 $x̄_{2}$ : media muestral del salario anual de las personas que aceptaron la membresía. <br>
@@ -76,20 +75,14 @@ $s_{1}$ : desvío estándar muestral del salario anual de las personas que no ac
 $s_{2}$ : desvío estándar muestral del salario anual de las personas que aceptaron la membresía. <br>
 $n_{1}$ : tamaño de la muestra de los salarios anuales de las personas que no aceptaron la membresía. <br>
 $n_{2}$ : tamaño de la muestra de los salarios anuales de las personas que no aceptaron la membresía. <br>
-<br>
 
 * Valor T crítico: <br>
-
-Sea $ t_{\frac{\alpha}{2},\nu} $ el valor $ t_{critico} $ que deja un área de $ \frac{\alpha}{2} $ a derecha y un área de $ \frac{\alpha}{2} $ a izquierda con $ \nu $ grados de libertad. La hipótesis nula se rechazará si: <br>
-$ T < -t_{\frac{\alpha}{2},\nu} $ o $ T > t_{\frac{\alpha}{2},\nu} $
-<br>
+Sea $t_{\frac{\alpha}{2},\nu}$ el valor $t_{critico}$ que deja un área de $\frac{\alpha}{2}$ a derecha y un área de $\frac{\alpha}{2}$ a izquierda con $\nu$ grados de libertad. La hipótesis nula se rechazará si: <br>
+$T < -t_{\frac{\alpha}{2},\nu}$ o $T > t_{\frac{\alpha}{2},\nu}$ <br>
 
 * INTERVALO DE CONFIANZA: <br>
-
-$ (x̄_{1} - x̄_{2}) - t_{\frac{\alpha}{2},\nu}\sqrt{\frac{s^{2}_{1}}{n_{1}} + \frac{s^{2}_{2}}{n_{1}}} $ , $ (x̄_{1} - x̄_{2}) + t_{\frac{\alpha}{2},\nu}\sqrt{\frac{s^{2}_{1}}{n_{1}} + \frac{s^{2}_{2}}{n_{1}}} $ <br>
+$(x̄_{1} - x̄_{2}) - t_{\frac{\alpha}{2},\nu}\sqrt{\frac{s^{2}_{1}}{n_{1}} + \frac{s^{2}_{2}}{n_{1}}}$ , $(x̄_{1} - x̄_{2}) + t_{\frac{\alpha}{2},\nu}\sqrt{\frac{s^{2}_{1}}{n_{1}} + \frac{s^{2}_{2}}{n_{1}}}$ <br>
 Utilizaremos un nivel de confianza del 95% (es decir, un nivel de significancia $ \alpha $ del 5%). <br>
-<br>
 
 * Interpretación del intervalo de confianza: <br>
-
 Si el 0 está contenido dentro del intervalo, entonces podremos afirmar con un 95% de confianza que existen diferencias significativas entre las medias de los salarios anuales de quienes aceptaron la membresía y quienes no lo hicieron. Por el contrario, si el 0 no está contenido, entonces no podremos afirmar que existan diferencias significativas.
