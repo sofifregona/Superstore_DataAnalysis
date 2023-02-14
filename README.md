@@ -67,7 +67,7 @@ $H_{0}: \mu_{0} - \mu_{1} = 0$ <br>
 $H_{1}: \mu_{0} - \mu_{1} ≠ 0$ <br>
 
 * Estadístico muestral para realizar la estimación: <br>
-$T=\frac{x̄_{1}-x̄_{2}}{\sqrt{\frac{s^{2}_{1}}{n_{1}}+\frac{s^{2}_{2}}{n_{1}}}}$ <br>
+$T={x̄_{1}-x̄_{2}}{\sqrt{\frac{s_{1}^{2}}{n_{1}}+\frac{s_{2}^{2}}{n_{1}}}}$ <br>
 donde: <br>
 $x̄_{1}$ : media muestral del salario anual de las personas que no aceptaron la membresía. <br>
 $x̄_{2}$ : media muestral del salario anual de las personas que aceptaron la membresía. <br>
@@ -81,8 +81,18 @@ Sea $t_{\frac{\alpha}{2},\nu}$ el valor $t_{critico}$ que deja un área de $\fra
 $T < -t_{\frac{\alpha}{2},\nu}$ o $T > t_{\frac{\alpha}{2},\nu}$ <br>
 
 * INTERVALO DE CONFIANZA: <br>
-$(x̄_{1} - x̄_{2}) - t_{\frac{\alpha}{2},\nu}\sqrt{\frac{s^{2}_{1}}{n_{1}} + \frac{s^{2}_{2}}{n_{1}}}$ , $(x̄_{1} - x̄_{2}) + t_{\frac{\alpha}{2},\nu}\sqrt{\frac{s^{2}_{1}}{n_{1}} + \frac{s^{2}_{2}}{n_{1}}}$ <br>
-Utilizaremos un nivel de confianza del 95% (es decir, un nivel de significancia $ \alpha $ del 5%). <br>
+$(x̄_{1} - x̄_{2}) - t_{\frac{\alpha}{2},\nu}\sqrt{\frac{s_{1}^{2}}{n_{1}} + \frac{s_{2}^{2}}{n_{1}}}$ , $(x̄_{1} - x̄_{2}) + t_{\frac{\alpha}{2},\nu}\sqrt{\frac{s_{1}^{2}}{n_{1}} + \frac{s_{2}^{2}}{n_{1}}}$ <br>
+Utilizaremos un nivel de confianza del 95% (es decir, un nivel de significancia $\alpha$ del 5%). <br>
 
 * Interpretación del intervalo de confianza: <br>
-Si el 0 está contenido dentro del intervalo, entonces podremos afirmar con un 95% de confianza que existen diferencias significativas entre las medias de los salarios anuales de quienes aceptaron la membresía y quienes no lo hicieron. Por el contrario, si el 0 no está contenido, entonces no podremos afirmar que existan diferencias significativas.
+Si el 0 está contenido dentro del intervalo, entonces podremos afirmar con un 95% de confianza que existen diferencias significativas entre las medias de los salarios anuales de quienes aceptaron la membresía y quienes no lo hicieron. Por el contrario, si el 0 no está contenido, entonces no podremos afirmar que existan diferencias significativas. <br>
+
+##### Resumen numérico y gráfico <br>
+|Response|count|mean|std|min|25%|50%|75%|max|
+|---|---|---|---|---|---|---|---|---|
+|0|1881\.0|50832\.62519936204|25263\.91308080881|1730\.0|34421\.0|50150\.0|66313\.0|666666\.0|
+|1|331\.0|60187\.752265861025|23231\.596312029622|7500\.0|39723\.5|64090\.0|80676\.0|105471\.0|
+
+<p align=center><i>Resumen numérico del salario anual en función de la respuesta (siendo 0: negativo, 1: afirmativo)</i></p>
+
+<image src="/images/picture.jpg" alt="Descripción de la imagen">
